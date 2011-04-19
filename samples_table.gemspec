@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.authors     = ["Gregório Chalinski Kusowski"]
   s.email       = ["gregorio.kusowski@gmail.com"]
-  s.homepage    = "http://github.com/gregoriokusowski"
+  s.homepage    = "https://github.com/gregoriokusowski/samples_table"
   s.summary     = %q{Helper to create examples table for testing}
   s.description = %q{Simple Table is a gem that enables the developer to create some examples in a table, making the job of writing specs easier}
 
