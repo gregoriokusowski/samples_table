@@ -47,7 +47,7 @@ Since it 'embed' the table into ruby code, it avoids the need of configurations,
 	end
 
 ***
-Feel free to 
+Feel free to comment/help.
 
 ***
 ### License:
