@@ -3,6 +3,14 @@ Based on cucumber's tables, you can create simple test cases easily.
 Since it 'embed' the table into ruby code, it avoids the need of configurations, and/or the creation and use of third test files for the examples.
 
 ***
+### Default Configuration:
+
+	# Gemfile (you may just need to add the samples table line)
+	group :development, :test do
+	  gem 'samples_table'
+	end
+
+***
 ### Configuration(with RSpec):
 
 	# spec_helper.rb
