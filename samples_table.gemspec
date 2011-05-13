@@ -6,17 +6,12 @@ Gem::Specification.new do |s|
   s.name        = "samples_table"
   s.version     = SamplesTable::VERSION
   s.platform    = Gem::Platform::RUBY
-
-  s.authors     = ["Gregório Chalinski Kusowski"]
-  s.email       = ["gregorio.kusowski@gmail.com"]
+  s.authors     = ['Gregório Chalinski Kusowski']
+  s.email       = "gregorio.kusowski@gmail.com"
   s.homepage    = "https://github.com/gregoriokusowski/samples_table"
-  s.summary     = %q{Helper to create examples table for testing}
-  s.description = %q{Simple Table is a gem that enables the developer to create some examples in a table, making the job of writing specs easier}
-
-  s.add_development_dependency 'rspec'
-
+  s.summary     = "Helper to create examples table for testing"
+  s.description = "Simple Table is a gem that enables the developer to create some examples in a table, making the job of writing specs easier"
   s.rubyforge_project = "samples_table"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
